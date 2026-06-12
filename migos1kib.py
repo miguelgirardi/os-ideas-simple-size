@@ -2,7 +2,7 @@ def usarKernel():
   while True:
     cmd=input("$")
     if cmd=="about":
-      print("MigOS version 2KiB")
+      print("MigOS version 1KiB")
       print("Made in 2026")
     elif cmd.startswith("echo"):
       if cmd!="echo TESTMESSAGE":
